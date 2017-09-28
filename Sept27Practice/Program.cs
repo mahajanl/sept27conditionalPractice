@@ -76,32 +76,40 @@ namespace Sept27Practice
             //IF A SWITCH: use "default" instead of case and go from there. 
             //COULD ALSO (someLetter == 'a' || someLetter == 'e' || someLetter == i || o || u
 
-            Console.WriteLine("Type a whole number for me.");
-            int numberOne = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Type a whole number for me.");
+            //int numberOne = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Type another whole number for me.");
-            int numberTwo = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Type another whole number for me.");
+            //int numberTwo = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter another whole number.");
-            int numberThree = int.Parse(Console.ReadLine());
-
-
-
-            if (numberTwo > numberOne && > numberThree)
-            { }
-                Console.WriteLine(numberTwo + " is the greater number.");
-            }
-            else if (numberOne > numberTwo)
-            {
-                Console.WriteLine(numberOne + " is the greater number.");
-            }
-            else
-            {
-                Console.WriteLine(numberTwo + " is the same as " + numberTwo);
-            }
-            
+            //Console.WriteLine("Enter another whole number.");
+            //int numberThree = int.Parse(Console.ReadLine());
 
 
+
+            //if (numberTwo > numberOne && > numberThree)
+            //{ }
+            //    Console.WriteLine(numberTwo + " is the greater number.");
+            //}
+            //else if (numberOne > numberTwo)
+            //{
+            //    Console.WriteLine(numberOne + " is the greater number.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(numberTwo + " is the same as " + numberTwo);
+            //}
+
+            Console.WriteLine("Hi! Can you give me four numbers?");
+            int numOne = int.Parse(Console.ReadLine());
+            int numTwo = int.Parse(Console.ReadLine());
+            int numThr = int.Parse(Console.ReadLine());
+            int numFou = int.Parse(Console.ReadLine());
+
+            double sum = numOne + numTwo + numThr + numFou;
+            double average = sum / 4;
+
+            Console.WriteLine("The average is " + average);
 
 
         }
