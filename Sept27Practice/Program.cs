@@ -46,34 +46,59 @@ namespace Sept27Practice
             //{ Console.WriteLine("The number you gave me is negative.");
             //}
 
-            Console.WriteLine("Give me a letter, and I'll tell you whether or not it's a vowel.");
-            char someLetter = char.Parse(Console.ReadLine());
+            //Console.WriteLine("Give me a letter, and I'll tell you whether or not it's a vowel.");
+            //char someLetter = char.Parse(Console.ReadLine());
 
-            if (someLetter == 'a')
-            {
-                Console.WriteLine(someLetter + " is a vowel.");
+            //if (someLetter == 'a')
+            //{
+            //    Console.WriteLine(someLetter + " is a vowel.");
+            //}
+            //else if (someLetter == 'e')
+            //{
+            //    Console.WriteLine(someLetter + " is a vowel.");
+            //}
+            //else if (someLetter == 'i')
+            //{
+            //    Console.WriteLine(someLetter + " is a vowel.");
+            //}
+            //else if (someLetter == 'o')
+            //{
+            //    Console.WriteLine(someLetter + " is a vowel.");
+            //}
+            //else if (someLetter == 'u')
+            //{
+            //    Console.WriteLine(someLetter + " is a vowel.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(someLetter + " is not a vowel at all.");
+            // }
+            //IF A SWITCH: use "default" instead of case and go from there. 
+            //COULD ALSO (someLetter == 'a' || someLetter == 'e' || someLetter == i || o || u
+
+            Console.WriteLine("Type a whole number for me.");
+            int numberOne = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Type another whole number for me.");
+            int numberTwo = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter another whole number.");
+            int numberThree = int.Parse(Console.ReadLine());
+
+
+
+            if (numberTwo > numberOne && > numberThree)
+            { }
+                Console.WriteLine(numberTwo + " is the greater number.");
             }
-            else if (someLetter == 'e')
+            else if (numberOne > numberTwo)
             {
-                Console.WriteLine(someLetter + " is a vowel.");
-            }
-            else if (someLetter == 'i')
-            {
-                Console.WriteLine(someLetter + " is a vowel.");
-            }
-            else if (someLetter == 'o')
-            {
-                Console.WriteLine(someLetter + " is a vowel.");
-            }
-            else if (someLetter == 'u')
-            {
-                Console.WriteLine(someLetter + " is a vowel.");
+                Console.WriteLine(numberOne + " is the greater number.");
             }
             else
             {
-                Console.WriteLine(someLetter + " is not a vowel at all.");
-             }
-
+                Console.WriteLine(numberTwo + " is the same as " + numberTwo);
+            }
             
 
 
